@@ -1,11 +1,11 @@
-cask 'firefox-45' do
-  version '45.9.0esr'
-  sha256 'c0d643622ad4f3a0e94ad9f22619903593636a9867ee78d948c22aef085b4d71'
+cask 'firefox-68' do
+  version '68.12.0esr'
+  sha256 'd780a6665d028ec9aff9f338c516e324cccf72a5d87144f79772c9fad0461831'
 
   url "https://ftp.mozilla.org/pub/firefox/releases/#{version}/mac/fr/Firefox%20#{version}.dmg"
   appcast 'https://www.mozilla.org/fr-FR/firefox/releases/'
-  name 'Mozilla Firefox 45.9.0esr'
+  name 'Mozilla Firefox 68.12.0esr'
   homepage 'https://www.mozilla.org/firefox/'
 
-  app 'Firefox.app', :target => 'Firefox-45.app'
+  app 'Firefox.app', :target => 'Firefox-68.app'
 end
